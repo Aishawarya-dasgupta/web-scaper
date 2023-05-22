@@ -1,0 +1,23 @@
+ 
+To start the server -> npm run start(start because we have defined it in scripts)
+ 
+ 
+ "scripts": {
+    "start":"nodemon index.js"
+  }, 
+  
+  => if we write npm run then start then we are going to listen for any changes made in the index.js file , this is what nodemon does  
+
+
+
+  express is a backend framework for node js
+
+ we are using package cheerio for extracting html elements from a web page, it works by passing markups and provides an api for traversing and manipulating the resultant data structure.
+ Its selector implementation is nearly identical to jquery
+
+ Axios - is a promise based http client for the browser and nodejs
+ it makes it easy to send http requests to rest endpoints and perform crud operations. which means we can use it to get post putand delete data
+
+
+ axios(url) -> this is going to return a promise and once the promise gets resolved we are going get a response
+ 
